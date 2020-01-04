@@ -1,0 +1,26 @@
+{
+    "name": "zillingen/json-files",
+    "description": "The Bolt CMS extension allows upload files via POST multipart/form-data requests",
+    "type": "bolt-extension",
+    "keywords": ["json", "rest", "files", "boltcms"],
+    "version": "0.1.0",
+    "require": {
+        "bolt/bolt": "^3.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Zakharov",
+            "email": "zill8830@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\Zillingen\\JsonFiles\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-assets": "web",
+        "bolt-class": "Bolt\\Extension\\Zillingen\\JsonFiles\\JsonFilesExtension"
+    }
+}

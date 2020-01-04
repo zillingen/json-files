@@ -1,0 +1,8 @@
+# Base frontend path
+path: /api/files
+
+# Authentication
+auth:
+  enabled: true
+  access_token: __TOKEN__
+
