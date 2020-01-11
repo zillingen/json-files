@@ -3,7 +3,7 @@
     "description": "The Bolt CMS extension allows upload files via POST multipart/form-data requests",
     "type": "bolt-extension",
     "keywords": ["json", "rest", "files", "boltcms"],
-    "version": "0.1.0",
+    "version": "0.1.1",
     "require": {
         "bolt/bolt": "^3.6"
     },
