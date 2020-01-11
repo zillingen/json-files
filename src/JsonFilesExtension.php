@@ -17,7 +17,7 @@ class JsonFilesExtension extends SimpleExtension
             'path' => '/api/files',
             'auth' => [
                 'enabled' => true,
-                'access_token' => 'ahn4uPhie1xoph8Ero3Shutaigh8Eoh0',
+                'access_token' => '__TOKEN__',
             ]
         ];
     }
